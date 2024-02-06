@@ -1,0 +1,13 @@
+{
+    "name": "plug",
+    "version": "1.0.0",
+    "scripts": {
+        "start": "concurrently \"cd Backend && node ./bin/www \" \"cd frontend && npm start\""
+    },
+    "dependencies": {
+        "cors": "^2.8.5",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "reactstrap": "^9.2.2"
+    }
+}
